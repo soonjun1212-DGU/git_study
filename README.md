@@ -1,2 +1,2 @@
 # git_study
-printf("Github");
+깃허브 공부 
