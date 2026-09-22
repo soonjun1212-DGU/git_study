@@ -19,7 +19,10 @@ git switch -c weekXX/soonjun
 
 **③ 정리 파일 작성**
 
-`weeks/weekXX/soonjun.md` 작성 → [마크다운 가이드](./docs/markdown-guide.md) 참고
+`weeks/_note.md`(정리 틀)를 복사해서 `weeks/weekXX/soonjun.md`로 이름을 바꾸고 작성해요 → [마크다운 가이드](./docs/markdown-guide.md) 참고
+
+> [!NOTE]
+> 정리 틀은 **직접 복사**해야 해요. VS Code에서 파일을 만들어도 자동으로 채워지지 않아요.
 
 **④ 커밋하고 올리기**
 ```Terminal
@@ -30,11 +33,10 @@ git push -u origin weekXX/soonjun
 
 **⑤ PR 열기**
 
-GitHub → 노란 **Compare & pull request** → 템플릿 작성 → **Reviewers**에 상대방 지정 → **Create pull request**
+GitHub → 노란 **Compare & pull request** → PR 설명 작성 → **Reviewers**에 상대방 지정 → **Create pull request**
 
 > [!NOTE]
-> PR 본문에는 템플릿이 **자동으로 채워져 있어요.** 복사할 필요 없이 빈칸만 채우면 돼요.
-> 체크리스트는 PR을 만든 뒤 화면에서 클릭으로도 체크할 수 있어요.
+> **GitHub 웹사이트의 PR 작성 화면**에서는 설명 칸에 PR 양식이 자동으로 채워져 있어요. 빈칸만 채우면 돼요.
 
 > [!TIP]
 > 내용을 보충하고 싶으면 같은 브랜치에서 수정 → `add` → `commit` → `push`만 하면 기존 PR에 자동으로 붙어요. 새 PR은 안 만들어도 돼요!
