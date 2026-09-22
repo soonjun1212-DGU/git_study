@@ -98,6 +98,7 @@ gitGraph
 
 - [📘 PR 가이드](./CONTRIBUTING.md) — 매주 PR 올리는 순서
 - [📝 마크다운 가이드](./docs/markdown-guide.md) — 정리 파일 쓰는 법
+- [🗒️ 정리 틀](./weeks/_note.md) — 매주 복사해서 쓰는 정리 파일 틀
 - [📖 용어집](./glossary.md) — 새로 알게 된 용어 모음
 
 ---
@@ -128,6 +129,7 @@ git_study/
 ├── docs/
 │   └── markdown-guide.md            # 마크다운 가이드
 └── weeks/
+    ├── _note.md
     ├── week01/
     │   ├── jungmin.md
     │   └── soonjun.md
