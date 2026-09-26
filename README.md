@@ -17,15 +17,15 @@
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://github.com/GITHUB_ID_1">
-        <img src="https://github.com/GITHUB_ID_1.png" width="100" style="border-radius:50%"><br>
+      <a href="https://github.com/youngb0">
+        <img src="https://github.com/youngb0.png" width="100" style="border-radius:50%"><br>
         <b>조정민</b>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/GITHUB_ID_2">
-        <img src="https://github.com/GITHUB_ID_2.png" width="100" style="border-radius:50%"><br>
-        <b>팀원 이름</b>
+      <a href="https://github.com/soonjun1212-DGU">
+        <img src="https://github.com/soonjun1212-DGU.png" width="100" style="border-radius:50%"><br>
+        <b>soonjun</b>
       </a>
     </td>
   </tr>
@@ -63,13 +63,13 @@ flowchart LR
 gitGraph
     commit id: "스터디 시작"
     branch week01/jungmin
-    commit id: "1주차 정리 (정민)"
+    commit id: "1주차 정리 (jungmin)"
     checkout main
-    branch week01/teammate
-    commit id: "1주차 정리 (팀원)"
+    branch week01/soonjun
+    commit id: "1주차 정리 (soonjun)"
     checkout main
     merge week01/jungmin
-    merge week01/teammate
+    merge week01/soonjun
     commit id: "2주차 시작"
 ```
 
@@ -94,6 +94,15 @@ gitGraph
 
 ---
 
+## 📚 가이드
+
+- [📘 PR 가이드](./CONTRIBUTING.md) — 매주 PR 올리는 순서
+- [📝 마크다운 가이드](./docs/markdown-guide.md) — 정리 파일 쓰는 법
+- [🗒️ 정리 틀](./weeks/_note.md) — 매주 복사해서 쓰는 정리 파일 틀
+- [📖 용어집](./glossary.md) — 새로 알게 된 용어 모음
+
+---
+
 ## ✅ 우리의 룰
 
 - 💬 리뷰할 땐 **좋았던 점 1개 + 질문 1개** 남기기
@@ -111,15 +120,19 @@ gitGraph
 ## 📁 폴더 구조
 
 ```
-git-study/
+git_study/
 ├── README.md
+├── CONTRIBUTING.md                  # PR 가이드
 ├── glossary.md                      # 공용 용어집
 ├── .github/
 │   └── pull_request_template.md     # PR 템플릿
+├── docs/
+│   └── markdown-guide.md            # 마크다운 가이드
 └── weeks/
+    ├── _note.md
     ├── week01/
     │   ├── jungmin.md
-    │   └── teammate.md
+    │   └── soonjun.md
     └── week02/
         └── ...
 ```
