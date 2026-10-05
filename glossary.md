@@ -20,39 +20,49 @@
 
 ### 🐙 GitHub가 알아보는 파일
 
-- **`README.md`**: 레포 첫 화면에 자동으로 보여주는 소개 문서 (jungmin)
-- **`CONTRIBUTING.md`**: 레포에 기여하는 방법을 적는 파일. 레포 화면에 탭이 생기고, PR을 열 때 링크를 띄워줌 (jungmin)
-- **`LICENSE`**: 이 코드를 어떻게 써도 되는지 적는 파일. 레포 오른쪽에 라이선스 종류가 표시됨 (jungmin)
-- **`.github/`**: GitHub 전용 설정을 모아두는 폴더 (jungmin)
-- **`.github/pull_request_template.md`**: PR을 열 때마다 본문에 자동으로 채워지는 양식. main에 있어야 적용됨 (jungmin)
+- **`README.md`**: 레포 첫 화면에 자동으로 보여주는 소개 문서 (jeongmin)
+- **`CONTRIBUTING.md`**: 레포에 기여하는 방법을 적는 파일. 레포 화면에 탭이 생기고, PR을 열 때 링크를 띄워줌 (jeongmin)
+- **`LICENSE`**: 이 코드를 어떻게 써도 되는지 적는 파일. 레포 오른쪽에 라이선스 종류가 표시됨 (jeongmin)
+- **`.github/`**: GitHub 전용 설정을 모아두는 폴더 (jeongmin)
+- **`.github/pull_request_template.md`**: PR을 열 때마다 본문에 자동으로 채워지는 양식. main에 있어야 적용됨 (jeongmin)
 
 ### 🌿 Git이 알아보는 이름
 
-- **`.git/`**: 커밋 기록 전체가 들어 있는 숨김 폴더. 사실상 저장소의 본체라 지우면 평범한 폴더가 됨 (jungmin)
-- **`.gitignore`**: 여기 적은 파일은 Git이 무시해서 커밋되지 않음. 비밀 설정이나 자동 생성 파일을 막을 때 씀 (jungmin)
-- **`origin`**: 클론해 온 원격 저장소(GitHub)에 Git이 기본으로 붙이는 별명. `git push origin`의 그 origin (jungmin)
-- **`main`**: 기본 브랜치의 이름. 예전엔 `master`가 기본이어서 Pro Git 책에는 master로 나옴 (jungmin)
+- **`.git/`**: 커밋 기록 전체가 들어 있는 숨김 폴더. 사실상 저장소의 본체라 지우면 평범한 폴더가 됨 (jeongmin)
+- **`.gitignore`**: 여기 적은 파일은 Git이 무시해서 커밋되지 않음. 비밀 설정이나 자동 생성 파일을 막을 때 씀 (jeongmin)
+- **`origin`**: 클론해 온 원격 저장소(GitHub)에 Git이 기본으로 붙이는 별명. `git push origin`의 그 origin (jeongmin)
+- **`main`**: 기본 브랜치의 이름. 예전엔 `master`가 기본이어서 Pro Git 책에는 master로 나옴 (jeongmin)
 
 ### 🤝 공식 기능은 아니지만 다들 쓰는 관례
 
-- **`.gitkeep`**: Git은 빈 폴더를 저장하지 않아서, 폴더를 유지하려고 넣어두는 빈 파일. 이름은 아무거나 돼도 다들 이렇게 씀 (jungmin)
-- **`docs/`**: 문서를 모아두는 폴더. 루트를 깔끔하게 유지하려고 씀 (jungmin)
-- **이름 앞의 점 (`.`)**: 리눅스·맥에서 숨김 파일이 되는 표시. "평소엔 안 봐도 되는 설정 파일"이라는 뜻 (jungmin)
-- **대문자 이름 (`README`, `LICENSE`)**: "사람이 꼭 읽어야 하는 파일"이라 눈에 잘 띄게 대문자로 씀. 나머지는 `markdown-guide.md`처럼 소문자와 하이픈으로 씀 (jungmin)
+- **`.gitkeep`**: Git은 빈 폴더를 저장하지 않아서, 폴더를 유지하려고 넣어두는 빈 파일. 이름은 아무거나 돼도 다들 이렇게 씀 (jeongmin)
+- **`docs/`**: 문서를 모아두는 폴더. 루트를 깔끔하게 유지하려고 씀 (jeongmin)
+- **이름 앞의 점 (`.`)**: 리눅스·맥에서 숨김 파일이 되는 표시. "평소엔 안 봐도 되는 설정 파일"이라는 뜻 (jeongmin)
+- **대문자 이름 (`README`, `LICENSE`)**: "사람이 꼭 읽어야 하는 파일"이라 눈에 잘 띄게 대문자로 씀. 나머지는 `markdown-guide.md`처럼 소문자와 하이픈으로 씀 (jeongmin)
 
 ---
 
 ## 0주차
 
-- **저장소 (Repository)**: 프로젝트 파일과 그 변경 기록이 모두 담긴 공간 (jungmin)
-- **클론 (clone)**: GitHub에 있는 저장소를 내 컴퓨터로 통째로 복사해 오는 것 (jungmin)
-- **스테이징 (staging)**: 다음 커밋에 넣을 변경을 골라 담아두는 단계. `git add`가 하는 일 (jungmin)
-- **커밋 (commit)**: 스테이징한 변경을 하나의 기록으로 저장하는 것 (jungmin)
-- **브랜치 (branch)**: main에 영향을 주지 않고 따로 작업할 수 있는 갈래 (jungmin)
-- **PR (Pull Request)**: 내 브랜치의 변경을 main에 합쳐달라고 요청하고 리뷰받는 GitHub 기능 (jungmin)
+- **저장소 (Repository)**: 프로젝트 파일과 그 변경 기록이 모두 담긴 공간 (jeongmin)
+- **클론 (clone)**: GitHub에 있는 저장소를 내 컴퓨터로 통째로 복사해 오는 것 (jeongmin)
+- **스테이징 (staging)**: 다음 커밋에 넣을 변경을 골라 담아두는 단계. `git add`가 하는 일 (jeongmin)
+- **커밋 (commit)**: 스테이징한 변경을 하나의 기록으로 저장하는 것 (jeongmin)
+- **브랜치 (branch)**: main에 영향을 주지 않고 따로 작업할 수 있는 갈래 (jeongmin)
+- **PR (Pull Request)**: 내 브랜치의 변경을 main에 합쳐달라고 요청하고 리뷰받는 GitHub 기능 (jeongmin)
 
 ## 1주차
 
 - **메타데이터**: 파일에 대한 내용이 아닌 파일에 대한 정보 ex) 파일의 크기, 수정 시간 (soonjun)
 - **체크아웃 (checkout)**: 특정 브랜치나 작업 환경으로 바꾸는 것(soonjun)
 - **깃 디렉토리**: git이 프로젝트를 관리하기 위해 만든 폴더 
+
+## 2주차
+
+- **워킹 디렉토리 (working directory)**: 내가 실제로 파일을 열고 수정하는 작업 공간. `git restore`로 되돌리는 대상 (jeongmin)
+- **인덱스 (index)**: 스테이징 영역의 다른 이름. 다음 커밋이 될 스냅샷의 초안이라 커밋해도 비워지지 않음 (jeongmin)
+- **HEAD**: 지금 내가 어느 브랜치·커밋에 있는지 가리키는 표시. `git log`의 `HEAD ->`가 현재 위치 (jeongmin)
+- **커밋 해시 (commit hash)**: 커밋마다 붙는 고유 ID. `--oneline`에 나오는 `d375b83` 같은 값 (jeongmin)
+- **원격 추적 브랜치 (remote-tracking branch)**: `origin/main`처럼 GitHub 브랜치 상태를 마지막으로 받아왔을 때 찍어둔 로컬 기록. `git fetch`해야 갱신됨 (jeongmin)
+- **amend**: 마지막 커밋을 고치는 게 아니라 새 커밋으로 바꿔치기하는 것. 그래서 해시가 바뀜 (jeongmin)
+- **Squash and merge**: PR의 여러 커밋을 하나로 뭉쳐서 main에 올리는 머지 방식 (jeongmin)
